@@ -1,0 +1,141 @@
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 7px 7px 10px 3px #00000028;
+  border: 3px solid transparent;
+  border-image: linear-gradient(to right, red, yellow, green);
+  border-image-slice: 1;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px; 
+  margin: 0 auto;
+  padding: 80px; 
+  border-radius: 20px;
+  box-shadow: 7px 7px 10px 3px #00000028;
+  border: 3px solid transparent;
+  border-image: linear-gradient(to right, red, yellow, green);
+  border-image-slice: 1;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: max-height 0.5s ease;
+  overflow: hidden;
+}
+
+#chk {
+  display: none;
+}
+
+.login {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.login label {
+  margin: 10px 0;
+}
+
+label {
+  color: #000000;
+  font-size: 2rem;
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  background: #aeb6b8ad;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+
+.register {
+  background: #ab96969c;
+  border-radius: 12px;
+  transition: .8s ease-in-out;
+}
+
+.register label {
+  color: #000000;
+  transform: scale(.6);
+}
+
+#chk:checked ~ .register {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+#chk:checked ~ .register label {
+  transform: scale(1);
+  margin: 10px 0 5px;
+}
+
+#chk:checked ~ .login label {
+  transform: scale(.6);
+  margin: 5px 0 5px;
+}
+
+.form button {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  color: #fff;
+  background: #000000;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .2s ease-in;
+}
+
+.form button:hover {
+  background-color: #000000;
+}
+
+.register-link {
+  color: #0a0a0a;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
+
+.welcome-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
