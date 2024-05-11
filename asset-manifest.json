@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/SamuraiTech/static/css/main.049f8e98.css",
+    "main.js": "/SamuraiTech/static/js/main.955e6857.js",
+    "static/media/Acer Predator Helios 300.jpg": "/SamuraiTech/static/media/Acer Predator Helios 300.7e91bfa9892bede31236.jpg",
+    "static/media/Acer Predator Triton 500 SE.jpg": "/SamuraiTech/static/media/Acer Predator Triton 500 SE.b13a22f72ab16a30b7a6.jpg",
+    "static/media/ASUS TUF Gaming F15 (2022).png": "/SamuraiTech/static/media/ASUS TUF Gaming F15 (2022).2fd6c8d9451cbe28b10e.png",
+    "static/media/MSI Raider GE76.jpg": "/SamuraiTech/static/media/MSI Raider GE76.7b90c27c2f0d0b1d0538.jpg",
+    "static/media/MSI Katana 15.jpg": "/SamuraiTech/static/media/MSI Katana 15.e07629c009a71fe048b3.jpg",
+    "static/media/lenovo-ideapad-gaming-3.jpg": "/SamuraiTech/static/media/lenovo-ideapad-gaming-3.b83aab2e56d22c9cb1b3.jpg",
+    "static/media/GIGABYTE AERO 14 OLED (1).jpg": "/SamuraiTech/static/media/GIGABYTE AERO 14 OLED (1).29dfb1f40fb4cedceb54.jpg",
+    "static/media/HP Computadora portátil AMD Ryze.jpg": "/SamuraiTech/static/media/HP Computadora portátil AMD Ryze.f866e82d7fa167bc6e84.jpg",
+    "static/media/acer-nitro-5.jpg": "/SamuraiTech/static/media/acer-nitro-5.fc287c1d1b40514bd565.jpg",
+    "static/media/msi-gf63-thin.jpg": "/SamuraiTech/static/media/msi-gf63-thin.28f59f0aa842103608df.jpg",
+    "static/media/razer-blade-17.jpg": "/SamuraiTech/static/media/razer-blade-17.09f968772dc48924d6e2.jpg",
+    "static/media/asus-rog-zephyrus-m16.jpg": "/SamuraiTech/static/media/asus-rog-zephyrus-m16.d2d1463cf467a14cecb2.jpg",
+    "static/media/asus-rog-strix-g17.jpg": "/SamuraiTech/static/media/asus-rog-strix-g17.bfea67348abaf5a76143.jpg",
+    "static/media/MSI GF65 Thin 10UE.jpg": "/SamuraiTech/static/media/MSI GF65 Thin 10UE.7da3725b07c7a57fc5b9.jpg",
+    "static/media/Alienware Portátil m15 R7.webp": "/SamuraiTech/static/media/Alienware Portátil m15 R7.45716d9b9405c044845a.webp",
+    "index.html": "/SamuraiTech/index.html",
+    "main.049f8e98.css.map": "/SamuraiTech/static/css/main.049f8e98.css.map",
+    "main.955e6857.js.map": "/SamuraiTech/static/js/main.955e6857.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.049f8e98.css",
+    "static/js/main.955e6857.js"
+  ]
+}
